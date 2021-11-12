@@ -1,12 +1,13 @@
 /**
  * 把文件夹下的 GB2312 文件转换为 UTF-8
+ * @DateTime 2021-11-12
  */
 
 const fs = require('fs');
 const iconv = require('iconv-lite');
 
 // 需要转换的文件夹路径
-const PATH = "./txt"; 
+const PATH = "./txt";
 
 // 获取文件夹下的所有文件
 function getAllFiles(path) {
